@@ -1,0 +1,17 @@
+PODS:
+  - BEMCheckBox (1.2.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - FMDB
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+
+PODFILE CHECKSUM: 626e5badeac25e1d31205b5e53658ba774e42f19
+
+COCOAPODS: 1.1.1

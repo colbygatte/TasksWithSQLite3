@@ -1,0 +1,6 @@
+framework module Pods_TasksWithSQLite3Tests {
+  umbrella header "Pods-TasksWithSQLite3Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

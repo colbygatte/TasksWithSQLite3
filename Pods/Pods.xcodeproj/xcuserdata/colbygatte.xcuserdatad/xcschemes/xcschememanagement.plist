@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BEMCheckBox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TasksWithSQLite3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TasksWithSQLite3Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TasksWithSQLite3UITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>098BFC9522F30B211D6327D860C5CA7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>119413E43A4FBB310A5E085CD20031C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>251BAD17812F7EBF6532EACF66F941C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C131CD14C3830AE9D7E9190097C9371</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0F66EC21AF4E86F373B282628985CC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

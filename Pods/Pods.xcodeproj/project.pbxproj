@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403BB53101E3B102214B70AAD40F624 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBFE36A14015C5EDF4D2FCC404D61C /* BEMAnimationManager.m */; };
+		0A40EFE60D6CAFECFAA4E28D3DF280BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		104B3D957CDACA441EDEACE1B9F4588F /* Pods-TasksWithSQLite3UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3910A21E601707FEA0F73FE11E264B4 /* Pods-TasksWithSQLite3UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 69893359EF6164152B3B176AACEE89CA /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27345BB2A0EF403BC5F3DE07574B9C74 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 94287804BB7F8BC26B1B2284EB67B3F2 /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		291D3CF044550F3ADFB26DA8D6BAFA26 /* Pods-TasksWithSQLite3Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CEA89D840EB043B895E1D212FCAD01 /* Pods-TasksWithSQLite3Tests-dummy.m */; };
+		2CDFB65360208AA289C014F2F3EB323F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		36B7EFD99C52F961A48656DB5FCEE9D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1720AD4F051ABC22E172833B6225514E /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3ADFA130D51AA97D7340E046DF0F139F /* Pods-TasksWithSQLite3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DAB53C40D01D8E873940EC2C72ED7 /* Pods-TasksWithSQLite3-dummy.m */; };
+		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 21610259623307FB3B382BAB88DF692E /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561D3AC1BE3DDC4D13E43189A572D502 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A286DD0439488A11F1A2D36893F128 /* BEMCheckBox.m */; };
+		68951DAEA359C1BAD5572B44310A7444 /* Pods-TasksWithSQLite3UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A924B422BE7250C161B5E3E357589234 /* Pods-TasksWithSQLite3UITests-dummy.m */; };
+		703573E3108A49A47C05035A0432FD6E /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2E606FC4D3AAF0718D789C3660A98A /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 32208E6D68C03BAE30B5B2934405973A /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C80EC699C0755C73B12F4CF7825758D /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E73D00F45A539995C25464DFC96629C /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A7B150636FA38E8F17EDA3160026A5 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C783DE6C2354AEA3BFFACD51AC7CE62E /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A280F9A43586096D68BF621D33C6C73D /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8BEF65C5C008AA6E3054974CFC6FD2 /* Pods-TasksWithSQLite3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99546758642AD3BBDA2CC3308158EC7A /* Pods-TasksWithSQLite3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF09A0762399F89D1EEB759D6F5C6DE /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A96C8F151FD543F515F8427A098335C /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BBE17A0536F174FBF98130306C6EC6 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EAAEAB3E32B234D812DD38AB9632F8 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE30946ADC791828E696A8CAE67DF589 /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF74349B5A54781011D9DA8C2691E3F5 /* BEMCheckBox-dummy.m */; };
+		CF38ED4B6EB349B590FCE931E76210CA /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E290AF053B68A887102A69D5F8D1168 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3FEEF5E2FA091AB09C6D26730AE6241 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50650A526454E34ECA58A4FF012675FA /* BEMPathManager.m */; };
+		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8863A25B061691A8559B4FA6655026 /* FMDB-dummy.m */; };
+		DC96DB0D763D92939D73058C4AA99E98 /* Pods-TasksWithSQLite3Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B06063705CB9E194FC39746615421437 /* Pods-TasksWithSQLite3Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAFE9A6E612E43E50ADF9AF4694B70B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EB871C9F66F50F4C00DC492DC043F9 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB2DCD11691E8004AB6CF9B3E17BE91C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A11C30D9914655F9DE9C58158E1EF99B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0F66EC21AF4E86F373B282628985CC6;
+			remoteInfo = BEMCheckBox;
+		};
+		F6FE893F34B9A2796F6FC3812FA2B34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006380DC734768A1F08D13277856CED4 /* Pods-TasksWithSQLite3Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TasksWithSQLite3Tests-resources.sh"; sourceTree = "<group>"; };
+		029E6E8FF4B44EF59F3232F38F0F14F6 /* Pods-TasksWithSQLite3-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TasksWithSQLite3-resources.sh"; sourceTree = "<group>"; };
+		1720AD4F051ABC22E172833B6225514E /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		18FDC6D97FB49E176DC6BD3052D31EB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21610259623307FB3B382BAB88DF692E /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		21C36FE097973E0C0B7C47A993806BB0 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FMDB.modulemap; sourceTree = "<group>"; };
+		2563DCE0E38806214859C5ADD13D7C7C /* Pods-TasksWithSQLite3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TasksWithSQLite3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26CEA89D840EB043B895E1D212FCAD01 /* Pods-TasksWithSQLite3Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TasksWithSQLite3Tests-dummy.m"; sourceTree = "<group>"; };
+		2DCBFE36A14015C5EDF4D2FCC404D61C /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		2F515F60CC8738FD4159756EFBAE0C58 /* Pods_TasksWithSQLite3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TasksWithSQLite3UITests.framework; path = "Pods-TasksWithSQLite3UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32208E6D68C03BAE30B5B2934405973A /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		332FA07842EB1C67DA9859DD9122FFDF /* Pods-TasksWithSQLite3UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TasksWithSQLite3UITests-resources.sh"; sourceTree = "<group>"; };
+		38072E7980BEE828CF4D90BE1C07C2E4 /* Pods-TasksWithSQLite3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TasksWithSQLite3.release.xcconfig"; sourceTree = "<group>"; };
+		3C80EC699C0755C73B12F4CF7825758D /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		3E2F85519FB6525C2FCA74B45DF595A2 /* Pods-TasksWithSQLite3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TasksWithSQLite3.debug.xcconfig"; sourceTree = "<group>"; };
+		3E73D00F45A539995C25464DFC96629C /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		401462BD31B2A7EFEF0FEA2AE10A7585 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A7B150636FA38E8F17EDA3160026A5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		504D6154A50101A8779B650819B184F1 /* Pods-TasksWithSQLite3UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TasksWithSQLite3UITests.modulemap"; sourceTree = "<group>"; };
+		50650A526454E34ECA58A4FF012675FA /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		57EAAEAB3E32B234D812DD38AB9632F8 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		5889E9A89752530254318E23B7134D72 /* Pods-TasksWithSQLite3Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TasksWithSQLite3Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5AC4E5D27291CBF2E197A9054C4FD934 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		5EFE79E4D7AFF3A44C130CAF04DAA295 /* Pods-TasksWithSQLite3UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TasksWithSQLite3UITests-frameworks.sh"; sourceTree = "<group>"; };
+		5F5EAF07E4F508537ADB1B6521201495 /* Pods-TasksWithSQLite3Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TasksWithSQLite3Tests.modulemap"; sourceTree = "<group>"; };
+		5FB16DB0C84325F65A082F3E2EF33439 /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		65883558C9379548FA95B7076C1E1A59 /* Pods-TasksWithSQLite3Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TasksWithSQLite3Tests-frameworks.sh"; sourceTree = "<group>"; };
+		69893359EF6164152B3B176AACEE89CA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7085F83132C77EB0CAF095D6BC952FF5 /* BEMCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMCheckBox.framework; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BBB6EC98C10C72E7385BD790661092 /* Pods-TasksWithSQLite3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TasksWithSQLite3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		78494B4DE6B515C70A036D266405DFC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA6B91B4A78D8D42D69924BCEBFDA30 /* Pods-TasksWithSQLite3UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TasksWithSQLite3UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F3528DCBFBCF67F70D0970EDA90A132 /* Pods-TasksWithSQLite3-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TasksWithSQLite3-frameworks.sh"; sourceTree = "<group>"; };
+		83BBE17A0536F174FBF98130306C6EC6 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		860E92C4481AEBB643AEF7C23845E2A3 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		8A96C8F151FD543F515F8427A098335C /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		8E290AF053B68A887102A69D5F8D1168 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		8F2E606FC4D3AAF0718D789C3660A98A /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		8FC15377FC3391234B875C84241AB8C4 /* Pods-TasksWithSQLite3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TasksWithSQLite3-acknowledgements.plist"; sourceTree = "<group>"; };
+		9085CD30BC08EDB54E114AA03E5F8003 /* Pods-TasksWithSQLite3Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TasksWithSQLite3Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90ADF6D61344E888546DF19F875B859F /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94287804BB7F8BC26B1B2284EB67B3F2 /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+		99546758642AD3BBDA2CC3308158EC7A /* Pods-TasksWithSQLite3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TasksWithSQLite3-umbrella.h"; sourceTree = "<group>"; };
+		A280F9A43586096D68BF621D33C6C73D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A5EB871C9F66F50F4C00DC492DC043F9 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		A924B422BE7250C161B5E3E357589234 /* Pods-TasksWithSQLite3UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TasksWithSQLite3UITests-dummy.m"; sourceTree = "<group>"; };
+		AA8863A25B061691A8559B4FA6655026 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		AFB06D8A9B721EFE11490BAED04BCD87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06063705CB9E194FC39746615421437 /* Pods-TasksWithSQLite3Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TasksWithSQLite3Tests-umbrella.h"; sourceTree = "<group>"; };
+		B902C4835B6A1523B1BA092B4FC5436B /* Pods-TasksWithSQLite3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TasksWithSQLite3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAFD21ADB10D8AB361FAD1D107D58AA7 /* BEMCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.xcconfig; sourceTree = "<group>"; };
+		BF417576597743F80779A7669CD96866 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A286DD0439488A11F1A2D36893F128 /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
+		C783DE6C2354AEA3BFFACD51AC7CE62E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDBC00A887B2A4097336EAF5FF0272E8 /* Pods-TasksWithSQLite3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TasksWithSQLite3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CF74349B5A54781011D9DA8C2691E3F5 /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
+		D22513BD8AFC79DFBBE447EF6F609743 /* Pods-TasksWithSQLite3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TasksWithSQLite3.modulemap"; sourceTree = "<group>"; };
+		D503B68873E2D488BED454D2ACEB5E32 /* Pods_TasksWithSQLite3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TasksWithSQLite3.framework; path = "Pods-TasksWithSQLite3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD5DCF419A323CA941CC469139B0AF7 /* Pods_TasksWithSQLite3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TasksWithSQLite3Tests.framework; path = "Pods-TasksWithSQLite3Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0DAB53C40D01D8E873940EC2C72ED7 /* Pods-TasksWithSQLite3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TasksWithSQLite3-dummy.m"; sourceTree = "<group>"; };
+		EA9F09E1B9FE789FCA6810135033EDD5 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
+		F006C09723F47C9A1A6D713C456BB705 /* Pods-TasksWithSQLite3UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TasksWithSQLite3UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3910A21E601707FEA0F73FE11E264B4 /* Pods-TasksWithSQLite3UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TasksWithSQLite3UITests-umbrella.h"; sourceTree = "<group>"; };
+		FB9058AE3E4473207B038E9930747507 /* Pods-TasksWithSQLite3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TasksWithSQLite3-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED9149AACBACE012201A6C4BC3755FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A40EFE60D6CAFECFAA4E28D3DF280BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECCFE7D9DDA67267CD0AB6E384EE390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDFB65360208AA289C014F2F3EB323F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8B0021CD31AB551B870112A216C114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2DCD11691E8004AB6CF9B3E17BE91C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BDD26F95BFFEC3734F5D9C7C4F0B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFE9A6E612E43E50ADF9AF4694B70B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B7EFD99C52F961A48656DB5FCEE9D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050FAD4C82693909B5DC97875F46A2A1 /* Pods-TasksWithSQLite3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				78494B4DE6B515C70A036D266405DFC5 /* Info.plist */,
+				504D6154A50101A8779B650819B184F1 /* Pods-TasksWithSQLite3UITests.modulemap */,
+				7CA6B91B4A78D8D42D69924BCEBFDA30 /* Pods-TasksWithSQLite3UITests-acknowledgements.markdown */,
+				F006C09723F47C9A1A6D713C456BB705 /* Pods-TasksWithSQLite3UITests-acknowledgements.plist */,
+				A924B422BE7250C161B5E3E357589234 /* Pods-TasksWithSQLite3UITests-dummy.m */,
+				5EFE79E4D7AFF3A44C130CAF04DAA295 /* Pods-TasksWithSQLite3UITests-frameworks.sh */,
+				332FA07842EB1C67DA9859DD9122FFDF /* Pods-TasksWithSQLite3UITests-resources.sh */,
+				F3910A21E601707FEA0F73FE11E264B4 /* Pods-TasksWithSQLite3UITests-umbrella.h */,
+				2563DCE0E38806214859C5ADD13D7C7C /* Pods-TasksWithSQLite3UITests.debug.xcconfig */,
+				75BBB6EC98C10C72E7385BD790661092 /* Pods-TasksWithSQLite3UITests.release.xcconfig */,
+			);
+			name = "Pods-TasksWithSQLite3UITests";
+			path = "Target Support Files/Pods-TasksWithSQLite3UITests";
+			sourceTree = "<group>";
+		};
+		0BF30DADEF497B52B0B55EF32E318C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7085F83132C77EB0CAF095D6BC952FF5 /* BEMCheckBox.framework */,
+				90ADF6D61344E888546DF19F875B859F /* FMDB.framework */,
+				D503B68873E2D488BED454D2ACEB5E32 /* Pods_TasksWithSQLite3.framework */,
+				DAD5DCF419A323CA941CC469139B0AF7 /* Pods_TasksWithSQLite3Tests.framework */,
+				2F515F60CC8738FD4159756EFBAE0C58 /* Pods_TasksWithSQLite3UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FC2FBA8B44D3286B7E94467186FF77 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				52C2F8A93B049D038D588D626ADF380F /* standard */,
+				D4E62162643CDBC7DF83F77EDDD259EE /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		13273665FFE5793CCFF70BE11C8D147F /* Pods-TasksWithSQLite3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC6D97FB49E176DC6BD3052D31EB6 /* Info.plist */,
+				5F5EAF07E4F508537ADB1B6521201495 /* Pods-TasksWithSQLite3Tests.modulemap */,
+				9085CD30BC08EDB54E114AA03E5F8003 /* Pods-TasksWithSQLite3Tests-acknowledgements.markdown */,
+				5889E9A89752530254318E23B7134D72 /* Pods-TasksWithSQLite3Tests-acknowledgements.plist */,
+				26CEA89D840EB043B895E1D212FCAD01 /* Pods-TasksWithSQLite3Tests-dummy.m */,
+				65883558C9379548FA95B7076C1E1A59 /* Pods-TasksWithSQLite3Tests-frameworks.sh */,
+				006380DC734768A1F08D13277856CED4 /* Pods-TasksWithSQLite3Tests-resources.sh */,
+				B06063705CB9E194FC39746615421437 /* Pods-TasksWithSQLite3Tests-umbrella.h */,
+				B902C4835B6A1523B1BA092B4FC5436B /* Pods-TasksWithSQLite3Tests.debug.xcconfig */,
+				CDBC00A887B2A4097336EAF5FF0272E8 /* Pods-TasksWithSQLite3Tests.release.xcconfig */,
+			);
+			name = "Pods-TasksWithSQLite3Tests";
+			path = "Target Support Files/Pods-TasksWithSQLite3Tests";
+			sourceTree = "<group>";
+		};
+		3087AED67418B8267C5BC7742C9C1D8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9F09E1B9FE789FCA6810135033EDD5 /* BEMCheckBox.modulemap */,
+				BAFD21ADB10D8AB361FAD1D107D58AA7 /* BEMCheckBox.xcconfig */,
+				CF74349B5A54781011D9DA8C2691E3F5 /* BEMCheckBox-dummy.m */,
+				5FB16DB0C84325F65A082F3E2EF33439 /* BEMCheckBox-prefix.pch */,
+				8F2E606FC4D3AAF0718D789C3660A98A /* BEMCheckBox-umbrella.h */,
+				401462BD31B2A7EFEF0FEA2AE10A7585 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
+			sourceTree = "<group>";
+		};
+		43D1BD240A71394CE05B6777C201D19D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				715D5F4D05F9BF231C369DBBBAB72F26 /* Pods-TasksWithSQLite3 */,
+				13273665FFE5793CCFF70BE11C8D147F /* Pods-TasksWithSQLite3Tests */,
+				050FAD4C82693909B5DC97875F46A2A1 /* Pods-TasksWithSQLite3UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52C2F8A93B049D038D588D626ADF380F /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB871C9F66F50F4C00DC492DC043F9 /* FMDatabase.h */,
+				1720AD4F051ABC22E172833B6225514E /* FMDatabase.m */,
+				A280F9A43586096D68BF621D33C6C73D /* FMDatabaseAdditions.h */,
+				44A7B150636FA38E8F17EDA3160026A5 /* FMDatabaseAdditions.m */,
+				3E73D00F45A539995C25464DFC96629C /* FMDatabasePool.h */,
+				83BBE17A0536F174FBF98130306C6EC6 /* FMDatabasePool.m */,
+				69893359EF6164152B3B176AACEE89CA /* FMDatabaseQueue.h */,
+				C783DE6C2354AEA3BFFACD51AC7CE62E /* FMDatabaseQueue.m */,
+				57EAAEAB3E32B234D812DD38AB9632F8 /* FMDB.h */,
+				21610259623307FB3B382BAB88DF692E /* FMResultSet.h */,
+				32208E6D68C03BAE30B5B2934405973A /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		6C53D8970E729BF81F5388DC2DD09359 /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				8E290AF053B68A887102A69D5F8D1168 /* BEMAnimationManager.h */,
+				2DCBFE36A14015C5EDF4D2FCC404D61C /* BEMAnimationManager.m */,
+				8A96C8F151FD543F515F8427A098335C /* BEMCheckBox.h */,
+				C6A286DD0439488A11F1A2D36893F128 /* BEMCheckBox.m */,
+				94287804BB7F8BC26B1B2284EB67B3F2 /* BEMPathManager.h */,
+				50650A526454E34ECA58A4FF012675FA /* BEMPathManager.m */,
+				3087AED67418B8267C5BC7742C9C1D8B /* Support Files */,
+			);
+			name = BEMCheckBox;
+			path = BEMCheckBox;
+			sourceTree = "<group>";
+		};
+		715D5F4D05F9BF231C369DBBBAB72F26 /* Pods-TasksWithSQLite3 */ = {
+			isa = PBXGroup;
+			children = (
+				BF417576597743F80779A7669CD96866 /* Info.plist */,
+				D22513BD8AFC79DFBBE447EF6F609743 /* Pods-TasksWithSQLite3.modulemap */,
+				FB9058AE3E4473207B038E9930747507 /* Pods-TasksWithSQLite3-acknowledgements.markdown */,
+				8FC15377FC3391234B875C84241AB8C4 /* Pods-TasksWithSQLite3-acknowledgements.plist */,
+				EA0DAB53C40D01D8E873940EC2C72ED7 /* Pods-TasksWithSQLite3-dummy.m */,
+				7F3528DCBFBCF67F70D0970EDA90A132 /* Pods-TasksWithSQLite3-frameworks.sh */,
+				029E6E8FF4B44EF59F3232F38F0F14F6 /* Pods-TasksWithSQLite3-resources.sh */,
+				99546758642AD3BBDA2CC3308158EC7A /* Pods-TasksWithSQLite3-umbrella.h */,
+				3E2F85519FB6525C2FCA74B45DF595A2 /* Pods-TasksWithSQLite3.debug.xcconfig */,
+				38072E7980BEE828CF4D90BE1C07C2E4 /* Pods-TasksWithSQLite3.release.xcconfig */,
+			);
+			name = "Pods-TasksWithSQLite3";
+			path = "Target Support Files/Pods-TasksWithSQLite3";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A7849C97985E69829C5722B44247BDAA /* Pods */,
+				0BF30DADEF497B52B0B55EF32E318C2A /* Products */,
+				43D1BD240A71394CE05B6777C201D19D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7849C97985E69829C5722B44247BDAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C53D8970E729BF81F5388DC2DD09359 /* BEMCheckBox */,
+				11FC2FBA8B44D3286B7E94467186FF77 /* FMDB */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E62162643CDBC7DF83F77EDDD259EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21C36FE097973E0C0B7C47A993806BB0 /* FMDB.modulemap */,
+				5AC4E5D27291CBF2E197A9054C4FD934 /* FMDB.xcconfig */,
+				AA8863A25B061691A8559B4FA6655026 /* FMDB-dummy.m */,
+				860E92C4481AEBB643AEF7C23845E2A3 /* FMDB-prefix.pch */,
+				3C80EC699C0755C73B12F4CF7825758D /* FMDB-umbrella.h */,
+				AFB06D8A9B721EFE11490BAED04BCD87 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A3B97A9A2AADC2B538D745AA3FAB0D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8BEF65C5C008AA6E3054974CFC6FD2 /* Pods-TasksWithSQLite3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
+				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
+				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
+				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
+				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
+				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
+				3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A58788E75E12E8B32C427037790FF4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF38ED4B6EB349B590FCE931E76210CA /* BEMAnimationManager.h in Headers */,
+				703573E3108A49A47C05035A0432FD6E /* BEMCheckBox-umbrella.h in Headers */,
+				BBF09A0762399F89D1EEB759D6F5C6DE /* BEMCheckBox.h in Headers */,
+				27345BB2A0EF403BC5F3DE07574B9C74 /* BEMPathManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22AC39CFD456BD7D249C4D50378B2B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC96DB0D763D92939D73058C4AA99E98 /* Pods-TasksWithSQLite3Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDD8D9870DD9F7FF70EFCE5C270749A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104B3D957CDACA441EDEACE1B9F4588F /* Pods-TasksWithSQLite3UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		098BFC9522F30B211D6327D860C5CA7D /* Pods-TasksWithSQLite3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384F740A063911D1123A6C87F760E434 /* Build configuration list for PBXNativeTarget "Pods-TasksWithSQLite3" */;
+			buildPhases = (
+				EAC1BBDF2A554133D1A695E6FFA19280 /* Sources */,
+				1ED9149AACBACE012201A6C4BC3755FB /* Frameworks */,
+				2A3B97A9A2AADC2B538D745AA3FAB0D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072514A2ABC153B19ED7EFE415B87F09 /* PBXTargetDependency */,
+				99C206D4D111036E51C86C3E3EEF798F /* PBXTargetDependency */,
+			);
+			name = "Pods-TasksWithSQLite3";
+			productName = "Pods-TasksWithSQLite3";
+			productReference = D503B68873E2D488BED454D2ACEB5E32 /* Pods_TasksWithSQLite3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		119413E43A4FBB310A5E085CD20031C7 /* Pods-TasksWithSQLite3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D6FD4442E446E77FF603D8466BFAAC /* Build configuration list for PBXNativeTarget "Pods-TasksWithSQLite3Tests" */;
+			buildPhases = (
+				886C77A79E7EA9A31D96F836A0789FBC /* Sources */,
+				2ECCFE7D9DDA67267CD0AB6E384EE390 /* Frameworks */,
+				A22AC39CFD456BD7D249C4D50378B2B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TasksWithSQLite3Tests";
+			productName = "Pods-TasksWithSQLite3Tests";
+			productReference = DAD5DCF419A323CA941CC469139B0AF7 /* Pods_TasksWithSQLite3Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				8FE0D4B503A94502F3431DC0DCB58040 /* Sources */,
+				EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */,
+				3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 90ADF6D61344E888546DF19F875B859F /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C131CD14C3830AE9D7E9190097C9371 /* Pods-TasksWithSQLite3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E1D7F011D65184FA6470C7779918C5 /* Build configuration list for PBXNativeTarget "Pods-TasksWithSQLite3UITests" */;
+			buildPhases = (
+				0BBEB339813DFC623F61FFFCCC2EA77D /* Sources */,
+				69BDD26F95BFFEC3734F5D9C7C4F0B02 /* Frameworks */,
+				ECDD8D9870DD9F7FF70EFCE5C270749A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TasksWithSQLite3UITests";
+			productName = "Pods-TasksWithSQLite3UITests";
+			productReference = 2F515F60CC8738FD4159756EFBAE0C58 /* Pods_TasksWithSQLite3UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0F66EC21AF4E86F373B282628985CC6 /* BEMCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD1712646C065821F1C62D12121095F /* Build configuration list for PBXNativeTarget "BEMCheckBox" */;
+			buildPhases = (
+				DEB339B873C50B61E7E13DDAAD25E7CF /* Sources */,
+				3B8B0021CD31AB551B870112A216C114 /* Frameworks */,
+				4A58788E75E12E8B32C427037790FF4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMCheckBox;
+			productName = BEMCheckBox;
+			productReference = 7085F83132C77EB0CAF095D6BC952FF5 /* BEMCheckBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0BF30DADEF497B52B0B55EF32E318C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0F66EC21AF4E86F373B282628985CC6 /* BEMCheckBox */,
+				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
+				098BFC9522F30B211D6327D860C5CA7D /* Pods-TasksWithSQLite3 */,
+				119413E43A4FBB310A5E085CD20031C7 /* Pods-TasksWithSQLite3Tests */,
+				5C131CD14C3830AE9D7E9190097C9371 /* Pods-TasksWithSQLite3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BBEB339813DFC623F61FFFCCC2EA77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68951DAEA359C1BAD5572B44310A7444 /* Pods-TasksWithSQLite3UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886C77A79E7EA9A31D96F836A0789FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291D3CF044550F3ADFB26DA8D6BAFA26 /* Pods-TasksWithSQLite3Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE0D4B503A94502F3431DC0DCB58040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
+				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
+				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
+				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
+				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
+				87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB339B873C50B61E7E13DDAAD25E7CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0403BB53101E3B102214B70AAD40F624 /* BEMAnimationManager.m in Sources */,
+				CE30946ADC791828E696A8CAE67DF589 /* BEMCheckBox-dummy.m in Sources */,
+				561D3AC1BE3DDC4D13E43189A572D502 /* BEMCheckBox.m in Sources */,
+				D3FEEF5E2FA091AB09C6D26730AE6241 /* BEMPathManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC1BBDF2A554133D1A695E6FFA19280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADFA130D51AA97D7340E046DF0F139F /* Pods-TasksWithSQLite3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072514A2ABC153B19ED7EFE415B87F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMCheckBox;
+			target = C0F66EC21AF4E86F373B282628985CC6 /* BEMCheckBox */;
+			targetProxy = A11C30D9914655F9DE9C58158E1EF99B /* PBXContainerItemProxy */;
+		};
+		99C206D4D111036E51C86C3E3EEF798F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = F6FE893F34B9A2796F6FC3812FA2B34F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06328F0DD3A0DA84E6943F25AE0C0BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2F85519FB6525C2FCA74B45DF595A2 /* Pods-TasksWithSQLite3.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TasksWithSQLite3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TasksWithSQLite3/Pods-TasksWithSQLite3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TasksWithSQLite3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		233FB22B1E94EC71DAC745FC5D6F30A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFD21ADB10D8AB361FAD1D107D58AA7 /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AB181C63A56031F29CB93C55D2D2762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC4E5D27291CBF2E197A9054C4FD934 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73AFA8C9D4CC86C724E6577337511E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B902C4835B6A1523B1BA092B4FC5436B /* Pods-TasksWithSQLite3Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TasksWithSQLite3Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TasksWithSQLite3Tests/Pods-TasksWithSQLite3Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TasksWithSQLite3Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8308FD2A0AFCC8BE15891D3649143628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2563DCE0E38806214859C5ADD13D7C7C /* Pods-TasksWithSQLite3UITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TasksWithSQLite3UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TasksWithSQLite3UITests/Pods-TasksWithSQLite3UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TasksWithSQLite3UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9531AF84FAEC6258BCDE773F012DBC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC4E5D27291CBF2E197A9054C4FD934 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9192BD31A29A5109ED6E3E7FFF3C205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BBB6EC98C10C72E7385BD790661092 /* Pods-TasksWithSQLite3UITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TasksWithSQLite3UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TasksWithSQLite3UITests/Pods-TasksWithSQLite3UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TasksWithSQLite3UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA38EAED5ADFFA94859EF38DBCBB76A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38072E7980BEE828CF4D90BE1C07C2E4 /* Pods-TasksWithSQLite3.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TasksWithSQLite3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TasksWithSQLite3/Pods-TasksWithSQLite3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TasksWithSQLite3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CACEFEC923EF4641666064281B9A1A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFD21ADB10D8AB361FAD1D107D58AA7 /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC6A449303B3FBB7F0EBBD3EDA38F50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBC00A887B2A4097336EAF5FF0272E8 /* Pods-TasksWithSQLite3Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TasksWithSQLite3Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TasksWithSQLite3Tests/Pods-TasksWithSQLite3Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TasksWithSQLite3Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		384F740A063911D1123A6C87F760E434 /* Build configuration list for PBXNativeTarget "Pods-TasksWithSQLite3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06328F0DD3A0DA84E6943F25AE0C0BD6 /* Debug */,
+				CA38EAED5ADFFA94859EF38DBCBB76A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB181C63A56031F29CB93C55D2D2762 /* Debug */,
+				9531AF84FAEC6258BCDE773F012DBC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E1D7F011D65184FA6470C7779918C5 /* Build configuration list for PBXNativeTarget "Pods-TasksWithSQLite3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8308FD2A0AFCC8BE15891D3649143628 /* Debug */,
+				A9192BD31A29A5109ED6E3E7FFF3C205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D6FD4442E446E77FF603D8466BFAAC /* Build configuration list for PBXNativeTarget "Pods-TasksWithSQLite3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73AFA8C9D4CC86C724E6577337511E0A /* Debug */,
+				DC6A449303B3FBB7F0EBBD3EDA38F50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD1712646C065821F1C62D12121095F /* Build configuration list for PBXNativeTarget "BEMCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACEFEC923EF4641666064281B9A1A80 /* Debug */,
+				233FB22B1E94EC71DAC745FC5D6F30A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
